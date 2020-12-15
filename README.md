@@ -1,4 +1,4 @@
-# performance-tuning
+# Performance-tuning
 
 ## Tune Hadoop Cluster to get Maximum Performance (Part 1)
 I have been working on production Hadoop clusters for a while and have learned many performance tuning tips and tricks. In this blog I will explain how to tune Hadoop Cluster to get maximum performance. Just installing Hadoop for production clusters or to do some development POC does not give expected results, because default Hadoop configuration settings are done keeping in mind the minimum hardware configuration. Its responsibility of Hadoop Administrator to understand the hardware specs like amount of RAM, Total number of CPU Cores, Physical Cores, Virtual Cores, Understand if hyper threading is supported by Processor, NIC Cards, Number of Disks that are mounted on Datanodes etc.
